@@ -26,11 +26,11 @@ public class UCard {
         return saved;
     }
 
-    public addBalance(double toAdd) {
+    public void addBalance(double toAdd) {
         balance += toAdd;
     }
 
-    public makePurchase(double netCost,double discount) {
+    public void makePurchase(double netCost,double discount) {
         saved += netCost * discount
         balance -= netCost * (1 - discount)
     }
