@@ -6,7 +6,7 @@ public class UCard {
     private double saved = 0.00;
 
     public UCard(String nameIn,int studentNumberIn) {
-        name = nameIn;
+        studentName = nameIn;
         studentNumber = studentNumberIn;
     }
 
@@ -31,8 +31,8 @@ public class UCard {
     }
 
     public void makePurchase(double netCost,double discount) {
-        saved += netCost * discount
-        balance -= netCost * (1 - discount)
+        saved += netCost * discount;
+        balance -= netCost * (1 - discount);
     }
 
 
