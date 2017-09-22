@@ -22,7 +22,7 @@ public class UCardDriver {
         alexsUCard.addBalance(80.00);
         
         sarahsUCard.addBalance(60);
-        sarahsUCard.makePurcahse(32.75,0.25);
+        sarahsUCard.makePurchase(32.75,0.25);
         
         janesUCard.makePurchase(54.75,0.20);
         
