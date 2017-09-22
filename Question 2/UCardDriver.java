@@ -1,3 +1,9 @@
+/**
+This class creates and manipulated four unique UCard objects with attributes
+that are mutated and printed.
+@author Justin Kaulback
+*/
+
 public class UCardDriver {
 
     public static void main(String[] args) {
